@@ -1,0 +1,23 @@
+<template name="SwitchLocale">
+<ul id="switch-language-btn" class="right">
+  <li>
+    <a class="dropdown-button" href="#!" data-activates="switch-locale-dropdown">
+      <img src="img/flags_png/flag_{{languageTag}}.png" class="flag-img">
+    </a>
+  </li>
+</ul>
+<ul id="switch-locale-dropdown" class="dropdown-content">
+  {{#each languages}}
+  <li class="{{# if isCurrentLanguage}}active{{/if}}">
+    <a class="language-tag" data-lang="{{tag}}">
+           {{name}}
+           <!--  @TODO make it a helper -->
+           <!-- <img src="/flag_{{tag}}.png" class="flag-img"> -->
+           {{# if isCurrentLanguage }}
+            <span class="fa fa-check"> </span>
+           {{/ if }}
+       </a>
+  </li>
+  {{/each}}
+</ul>
+</template>
