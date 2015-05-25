@@ -26,15 +26,15 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.addFiles([
-    'public/img/flags_png/flag_cn.png',
-    'public/img/flags_png/flag_de.png',
-    'public/img/flags_png/flag_en.png',
-    'public/img/flags_png/flag_es.png',
-    'public/img/flags_png/flag_fr.png',
-    'public/img/flags_png/flag_in.png',
-    'public/img/flags_png/flag_it.png',
-    'public/img/flags_png/flag_jp.png',
-    'public/img/flags_png/flag_ru.png',
+    'assets/img/flags_png/flag_cn.png',
+    'assets/img/flags_png/flag_de.png',
+    'assets/img/flags_png/flag_en.png',
+    'assets/img/flags_png/flag_es.png',
+    'assets/img/flags_png/flag_fr.png',
+    'assets/img/flags_png/flag_in.png',
+    'assets/img/flags_png/flag_it.png',
+    'assets/img/flags_png/flag_jp.png',
+    'assets/img/flags_png/flag_ru.png',
   ],'client', {isAsset: true});
 
   api.export(['TAPi18n','i18nSwitch']);

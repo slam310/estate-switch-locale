@@ -10,12 +10,12 @@
   {{#each languages}}
   <li class="{{# if isCurrentLanguage}}active{{/if}}">
     <a class="language-tag" data-lang="{{tag}}">
-           {{name}}
            <!--  @TODO make it a helper -->
            <!-- <img src="/flag_{{tag}}.png" class="flag-img"> -->
            {{# if isCurrentLanguage }}
-            <span class="fa fa-check"> </span>
+            <span class="mdi-action-done"> </span>
            {{/ if }}
+           {{name}}
        </a>
   </li>
   {{/each}}
