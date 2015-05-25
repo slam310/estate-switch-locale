@@ -1,6 +1,6 @@
 Package.describe({
   name: 'estate-dev:switch-locale',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'SwitchLocale Helper for the package TAPi18n',
   git: '',
   documentation: 'README.md'
